@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="css1/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-icons-1.5.0/bootstrap-icons.css">
+    <style>
+        .form-group{
+            position: relative;
+        }
+        .success input{
+            border-color: rgb(14, 233, 14) !important;
+            border-width: 2px !important;
+        }
+        .error input{
+            border-color: red !important;
+            border-width: 2px !important;
+        }
+        .success .bi-check-circle-fill{
+            color: rgb(14, 233, 14);
+            visibility: visible !important;;
+        }
+        .error .bi-exclamation-circle-fill{
+            color: red !important;
+            visibility: visible !important;
+        }
+    </style>
+</head>
+<body style="background-image: url(8.jpg);background-size: 100%;">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-6 offset-3">
+                <div class="card" style="background-color: rgba(0,0,0,0.4);">
+                    <div class="card-header">
+                        <h1 class="text-center text-info">Sign In</h1>
+                    </div>
+                    <form action="#" id="form">
+                        <div class="card-body">
+                            <div class="form-group position-relative">
+                                <label for="username">Username</label>
+                                <input type="text" id="username" placeholder="Enter your username..." class="form-control">
+                                <i class="bi bi-check-circle-fill position-absolute"  style="top: 40px; right: 10px;visibility: hidden;"></i>
+                                <i class="bi bi-exclamation-circle-fill position-absolute" style="top: 40px; right: 10px;visibility: hidden;"></i>
+                                <small id="satr" class="text-danger position-absolute style" style="visibility: hidden;">Xato</small>
+                            </div>
+                            <div class="form-group position-relative">
+                                <label for="username">Email</label>
+                                <input type="email" id="email" placeholder="Enter your email..." class="form-control">
+                                <i class="bi bi-check-circle-fill position-absolute"  style="top: 40px; right: 10px;visibility: hidden;"></i>
+                                <i class="bi bi-exclamation-circle-fill position-absolute" style="top: 40px; right: 10px;visibility: hidden;"></i>
+                                <small class="text-danger position-absolute" style="visibility: hidden;">Xato</small>
+                            </div>
+                            <div class="form-group position-relative">
+                                <label for="password1">Password</label>
+                                <input type="password" id="password1" placeholder="Enter your password..." class="form-control">
+                                <i class="bi bi-check-circle-fill position-absolute"  style="top: 40px; right: 10px;visibility: hidden;"></i>
+                                <i class="bi bi-exclamation-circle-fill position-absolute" style="top: 40px; right: 10px;visibility: hidden;"></i>
+                                <small class="text-danger position-absolute" style="visibility: hidden;">Xato</small>
+                            </div>
+                            <div class="form-group position-relative">
+                                <label for="upassword2">Confirm-password</label>
+                                <input type="password" id="passwrod2" placeholder="Confirm password" class="form-control">
+                                <i class="bi bi-check-circle-fill position-absolute"  style="top: 40px; right: 10px;visibility: hidden;"></i>
+                                <i class="bi bi-exclamation-circle-fill position-absolute" style="top: 40px; right: 10px;visibility: hidden;"></i>
+                                <small class="text-danger position-absolute" style="visibility: hidden;">Xato</small>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success btn-block">Submit</button>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" class="btn btn-danger btn-block " onclick="window.location.href='agro.html'">Back</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js1/jQuery.min.js"></script>
+    <script src="js1/popper.js"></script>    
+    <script src="js1/bootstrap.js"></script>
+    <script src="main14.js"></script>
+</body>
+</html>

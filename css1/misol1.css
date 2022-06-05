@@ -1,0 +1,27 @@
+.container {
+  width: 1200px;
+  margin: 10% auto;
+  background: linear-gradient(45deg, slateblue, slategray); }
+  .container h1 {
+    position: relative;
+    font-size: 150px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    border-bottom: 18px solid black; }
+    .container h1::before {
+      position: absolute;
+      color: white;
+      border-bottom: 18px solid white;
+      top: 0px;
+      left: 0px;
+      content: 'Loading...';
+      animation: loading 10s 4 linear;
+      text-shadow: 0 5px 5px cyan;
+      overflow: hidden; }
+@keyframes loading {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+
+/*# sourceMappingURL=misol1.css.map */

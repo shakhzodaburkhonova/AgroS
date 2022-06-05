@@ -1,0 +1,41 @@
+.block {
+  width: 300px;
+  height: 300px;
+  position: relative; }
+  .block img {
+    width: 100%; }
+  .block .box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    z-index: 1; }
+    .block .box .text {
+      color: white;
+      margin-top: 190px; }
+      .block .box .text h4 {
+        text-transform: capitalize; }
+      .block .box .text button {
+        border: none;
+        border-radius: 25px;
+        padding: 5px 10px;
+        background: #eb7934;
+        color: white; }
+  .block .box::before {
+    width: 100%;
+    height: 100%;
+    content: " ";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+    left: 0px;
+    transition: all 1s cubic-bezier(0.5, 0.01, 0, 1.5); }
+  .block .box:hover::before {
+    height: 0%; }
+  .block .box:hover .text {
+    color: teal;
+    text-shadow: 0 1px 2px cyan;
+    transition-delay: 0.5s; }
+
+/*# sourceMappingURL=dars3.css.map */

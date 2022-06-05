@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACN,gBAAgB,EAAE,KAAK;EACvB,UAAU,EAAE,MAAM;EAClB,aAAE;IACE,gBAAgB,EAAE,OAAgB;IAClC,MAAM,EAAC,IAAI;IACX,MAAM,EAAE,eAAe",
+"sources": ["../sass/top7.scss"],
+"names": [],
+"file": "top7.css"
+}

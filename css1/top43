@@ -1,0 +1,7 @@
+.bb {
+  opacity: -1; }
+
+.yes:active + .bb #b {
+  opacity: 1; }
+
+/*# sourceMappingURL=top43.map */

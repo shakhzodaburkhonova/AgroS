@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,8CAA2C;EACvC,GAAG;IACC,cAAc,EAAE,MAAM;IACtB,KAAK,EAAC,IAAI",
+"sources": ["../sass/top40.scss"],
+"names": [],
+"file": "top40.css"
+}

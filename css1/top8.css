@@ -1,0 +1,71 @@
+.container {
+  margin: 5% auto;
+  text-align: center;
+  font-size: 42px;
+  color: teal;
+  text-shadow: 0 2px 2px cyan;
+  position: relative; }
+  .container .k1 {
+    position: absolute;
+    right: -80px;
+    top: -60px;
+    background-image: url("13.png");
+    background-size: 100%;
+    overflow: hidden;
+    width: 250px;
+    height: 400px; }
+  .container .k2 {
+    position: absolute;
+    left: -80px;
+    bottom: -100px;
+    background-image: url("14.png");
+    background-size: cover;
+    overflow: hidden;
+    width: 250px;
+    height: 400px; }
+  .container .k {
+    margin-top: 20px;
+    width: 250px;
+    background-size: 100%;
+    overflow: hidden; }
+    .container .k .box {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      z-index: 1;
+      text-align: center; }
+      .container .k .box .text {
+        text-shadow: none;
+        color: white;
+        margin-top: 10px; }
+        .container .k .box .text h4 {
+          font-size: 22px;
+          text-transform: capitalize;
+          margin-bottom: -5px; }
+        .container .k .box .text button {
+          padding: 5px 15px;
+          border-radius: 25px;
+          font-size: 18px;
+          background-color: #1e91fe;
+          border: none; }
+    .container .k .box::before {
+      width: 100%;
+      height: 100%;
+      content: " ";
+      background-color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      left: 0px;
+      z-index: -1;
+      transition: all 1s cubic-bezier(0.5, 0.01, 0, 1.5); }
+    .container .k .box:hover::before {
+      height: 0px; }
+    .container .k .box:hover .text h4 {
+      color: #4badac;
+      text-shadow: 0px 2px 2px cyan;
+      transition-delay: 0.5s; }
+    .container .k .box:hover .text button {
+      background-color: #1ab1ac;
+      transition-delay: 0.5s; }
+
+/*# sourceMappingURL=top8.css.map */

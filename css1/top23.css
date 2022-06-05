@@ -1,0 +1,19 @@
+.container{
+    margin:5% auto;
+    background-color: rgb(238,243,250);
+    padding:20px;
+    width:500px;
+}
+.k{
+    padding:10px;
+}
+l{
+    color:rgb(77,193,201);
+}
+.btn{
+    background-color: rgb(0,193,192);
+    padding:6px 28px;
+}
+.card{
+    padding:20px;
+}

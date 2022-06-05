@@ -1,0 +1,10 @@
+.nav-div:hover{
+    background-color: green;
+}
+.nav-div:hover .nav-link{
+    background-color: rgb(102,74,63);
+    color:white !important;
+}
+.btn-shadow:hover{
+    box-shadow:-3px 3px 1px black;
+}

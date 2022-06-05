@@ -1,0 +1,8 @@
+.nav-link:hover{
+    color:rgb(237,86,59) !important;
+}
+.abc:hover{
+    background-color: white !important;
+    color: rgb(237,86,59) !important;
+    font-weight: 700;
+}

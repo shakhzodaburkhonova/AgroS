@@ -1,0 +1,45 @@
+.container {
+  margin: 1% auto;
+  width: 75%;
+  border: 15px solid #eaeaea;
+  padding: 0px; }
+  .container .row {
+    margin-bottom: 10px; }
+    .container .row .k1 {
+      margin-left: 70%; }
+    .container .row input {
+      font-size: 13px; }
+    .container .row .bi-search {
+      font-size: 20px; }
+    .container .row .btn {
+      font-size: 12px;
+      font-weight: bold; }
+    .container .row select {
+      border: none;
+      font-weight: bold; }
+  .container .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 60px;
+    height: min-content; }
+    .container .card-img-overlay h5 {
+      text-transform: uppercase; }
+    .container .card-img-overlay p {
+      font-size: 12px; }
+  .container .z {
+    margin-top: 210px;
+    margin-left: 8%;
+    background-color: rgba(0, 0, 0, 0); }
+  .container .j1 {
+    text-align: center;
+    padding: 40px 10px;
+    border: none;
+    display: flex;
+    align-items: center; }
+    .container .j1 .j2 {
+      font-size: 24px; }
+    .container .j1 .text-secondary {
+      font-size: 14px; }
+
+/*# sourceMappingURL=top16.css.map */

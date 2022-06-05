@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,kBAAkB;EACd,gBAAgB,EAAE,KAAK;EACvB,+BAAY;IACR,eAAe,EAAE,IAAI",
+"sources": ["../sass/top41.scss"],
+"names": [],
+"file": "top41.css"
+}

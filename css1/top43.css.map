@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,GAAG;EACC,OAAO,EAAC,EAAE;;AAGV,oBAAE;EACE,OAAO,EAAC,CAAC",
+"sources": ["../sass/top43.scss"],
+"names": [],
+"file": "top43.css"
+}

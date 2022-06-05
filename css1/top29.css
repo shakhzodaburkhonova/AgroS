@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(238,243,250);
+}
+.container{
+    width:80%;
+    padding:45px 25px;
+    margin-left: 10%;
+    background-color: rgb(245,245,245);
+}
+img{
+    width:60%;
+    margin-top:80px;
+}
+.katta{
+    font-size:40px;
+    color:rgb(36,36,123);
+}
+.text-danger{
+    font-size:20px;
+    margin-bottom: 15px;
+}
+.text-rang{
+    color:rgb(122,147,172);
+}
+.k{
+    margin-top:10px;
+    box-shadow: 5px 5px 10px gray,-5px -5px 10px grey;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 40px;
+}
+.pp{
+    color:rgb(122,147,172);
+    font-size:18px;
+}
+.bb{
+    font-size:32px;
+    color:rgb(32,36,123);
+}

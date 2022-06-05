@@ -1,0 +1,246 @@
+.container {
+  margin: 2% auto;
+  padding: 40px 10px;
+  background-color: silver;
+  font-family: sans-serif;
+  color: white; }
+  .container .row {
+    width: 100%; }
+    .container .row .j1 .k1 .k2 {
+      padding: 30px 20px;
+      width: 100%;
+      height: 140px;
+      background-color: teal;
+      font-size: 28px;
+      color: white;
+      margin-bottom: 0px; }
+      .container .row .j1 .k1 .k2 .k21 {
+        height: 60%; }
+    .container .row .j1 .k1 .k3 {
+      padding: 30px 20px;
+      width: 100%;
+      background-color: white;
+      color: black; }
+    .container .row .j1 .k1 .k4 {
+      width: 100%;
+      height: 2px;
+      background-color: transparent; }
+    .container .row .j1 .k1 .k5 {
+      padding: 20px;
+      width: 100%;
+      height: 50px;
+      background-color: white;
+      color: teal;
+      font-variant: small-caps;
+      height: 70px;
+      font-size: 24px;
+      display: flex;
+      font-weight: bold; }
+      .container .row .j1 .k1 .k5 .k51 {
+        width: 30%;
+        margin-left: 10px; }
+      .container .row .j1 .k1 .k5 .k52 {
+        width: 70%; }
+    .container .row .j1 .k6 {
+      width: 100%;
+      height: 20px; }
+    .container .row .j1 .k7 {
+      width: 100%;
+      display: flex; }
+      .container .row .j1 .k7 .k71 {
+        width: 30%;
+        background-color: gray; }
+      .container .row .j1 .k7 .k72 {
+        background-color: white;
+        width: 70%; }
+        .container .row .j1 .k7 .k72 .k721 {
+          padding: 30px 30px;
+          color: silver; }
+          .container .row .j1 .k7 .k72 .k721 b {
+            font-size: 28px;
+            color: black; }
+        .container .row .j1 .k7 .k72 .k722 {
+          height: 2px;
+          background-color: silver; }
+        .container .row .j1 .k7 .k72 .k723 {
+          width: 100%;
+          padding: 30px 30px;
+          display: flex;
+          color: #0a8080;
+          font-size: 20px;
+          font-weight: bold; }
+          .container .row .j1 .k7 .k72 .k723 .k7231 {
+            margin-right: 30px; }
+    .container .row .j1 .k8 {
+      width: 100%;
+      height: 20px; }
+    .container .row .j1 .k9 {
+      width: 100%;
+      color: #0a8080; }
+      .container .row .j1 .k9 .k91 {
+        background-color: white;
+        padding: 30px 10px;
+        width: 100%; }
+        .container .row .j1 .k9 .k91 b {
+          font-size: 20px; }
+        .container .row .j1 .k9 .k91 p {
+          color: black; }
+      .container .row .j1 .k9 .k92 {
+        width: 100%;
+        height: 2px; }
+      .container .row .j1 .k9 .k93 {
+        width: 100%;
+        background-color: white;
+        font-size: 14px;
+        padding: 10px 10px;
+        display: flex; }
+        .container .row .j1 .k9 .k93 .k931 {
+          margin-right: 10px; }
+        .container .row .j1 .k9 .k93 .k932 {
+          margin-left: 10px; }
+    .container .row .j2 {
+      width: 100%; }
+      .container .row .j2 .l1 {
+        width: 100%; }
+        .container .row .j2 .l1 .l11 {
+          width: 100%;
+          height: 140px;
+          padding: 30px 20px;
+          font-size: 28px;
+          color: white;
+          background-color: dodgerblue; }
+          .container .row .j2 .l1 .l11 .l112 {
+            width: 100%;
+            height: 60%; }
+        .container .row .j2 .l1 .l12 {
+          width: 100%;
+          padding: 20px 20px;
+          display: flex;
+          background-color: white; }
+          .container .row .j2 .l1 .l12 .l121 {
+            width: 60%; }
+          .container .row .j2 .l1 .l12 .l122 {
+            width: 40%;
+            display: flex; }
+            .container .row .j2 .l1 .l12 .l122 .r {
+              width: 35px;
+              height: 35px;
+              overflow: hidden;
+              background-size: 100%;
+              margin-left: 10px; }
+      .container .row .j2 .y {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px; }
+        .container .row .j2 .y .x1 {
+          margin-top: 30px;
+          width: 48%;
+          background-color: darkblue; }
+          .container .row .j2 .y .x1 .x11 {
+            height: 240px;
+            width: 100%; }
+            .container .row .j2 .y .x1 .x11 .x111 {
+              height: 60%;
+              width: 100%; }
+            .container .row .j2 .y .x1 .x11 .x112 {
+              padding: 20px 25px;
+              color: white; }
+          .container .row .j2 .y .x1 .x12 {
+            width: 100%;
+            padding: 10px 10px;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            background-color: white; }
+        .container .row .j2 .y .x2 {
+          margin-top: 30px;
+          width: 48%;
+          margin-left: 4%;
+          background-color: teal; }
+          .container .row .j2 .y .x2 .x21 {
+            height: 240px;
+            width: 100%; }
+            .container .row .j2 .y .x2 .x21 .x211 {
+              height: 60%;
+              width: 100%; }
+            .container .row .j2 .y .x2 .x21 .x212 {
+              padding: 20px 15px;
+              color: white; }
+          .container .row .j2 .y .x2 .x22 {
+            width: 100%;
+            padding: 10px 10px;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            background-color: white; }
+        .container .row .j2 .y .x3 {
+          width: 48%;
+          margin-top: 10px;
+          color: white; }
+          .container .row .j2 .y .x3 .x31 {
+            width: 100%;
+            height: 170px;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+            background-color: darkblue; }
+            .container .row .j2 .y .x3 .x31 .x311 {
+              font-size: 24px; }
+            .container .row .j2 .y .x3 .x31 .x312 {
+              width: 100%;
+              height: 20px; }
+          .container .row .j2 .y .x3 .x313 {
+            width: 100%;
+            height: 2%;
+            background-color: white; }
+          .container .row .j2 .y .x3 .x314 {
+            padding-left: 20px;
+            font-size: 14px;
+            background-color: darkblue; }
+          .container .row .j2 .y .x3 .x32 {
+            width: 100%;
+            background-color: transparent;
+            height: 10px; }
+          .container .row .j2 .y .x3 .x34 {
+            width: 100%;
+            background-color: #70807c;
+            padding: 8px 8px; }
+        .container .row .j2 .y .x4 {
+          margin-top: 10px;
+          width: 48%;
+          margin-left: 4%; }
+          .container .row .j2 .y .x4 .x41 {
+            padding: 10px 20px;
+            background-color: #70807c;
+            color: white;
+            font-size: 18px; }
+            .container .row .j2 .y .x4 .x41 .x411 {
+              padding: 5px; }
+            .container .row .j2 .y .x4 .x41 .x412 {
+              width: 100%;
+              padding: 10px 10px;
+              padding-top: 5px; }
+              .container .row .j2 .y .x4 .x41 .x412 .z {
+                width: 100%;
+                margin-top: 5px;
+                display: flex; }
+                .container .row .j2 .y .x4 .x41 .x412 .z .zz {
+                  width: 10px;
+                  height: 10px;
+                  margin-right: 10px;
+                  background-color: white; }
+                .container .row .j2 .y .x4 .x41 .x412 .z .zzz {
+                  color: white; }
+            .container .row .j2 .y .x4 .x41 .x42 {
+              height: 2px;
+              width: 100%;
+              background-color: white; }
+          .container .row .j2 .y .x4 .x43 {
+            padding: 5px 5px;
+            padding-left: 15px;
+            font-size: 18px;
+            background-color: #70947c !important;
+            background: teal; }
+
+/*# sourceMappingURL=top2.css.map */

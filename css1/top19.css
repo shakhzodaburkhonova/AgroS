@@ -1,0 +1,79 @@
+body .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 70%;
+  margin-left: 15%;
+  background-color: #e1e8f0; }
+  body .container .nav {
+    width: 90%;
+    margin-left: 5%;
+    background-color: #e8ecef;
+    margin-bottom: 15px; }
+  body .container .card {
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: 10%; }
+    body .container .card .card-header {
+      text-align: center; }
+      body .container .card .card-header img {
+        width: 100%;
+        margin-bottom: 10px; }
+      body .container .card .card-header p {
+        font-size: 16px; }
+        body .container .card .card-header p b {
+          font-size: 24px; }
+  body .container .k {
+    width: 80%;
+    margin-left: 10%;
+    background-color: white; }
+    body .container .k .k1 {
+      border: 1px solid #f2f2f2;
+      padding: 5px; }
+  body .container .z {
+    padding: 0px 10px;
+    background-color: white;
+    margin-bottom: 10px; }
+    body .container .z .z1 {
+      padding: 15px 0px;
+      font-weight: bold;
+      border-bottom: 1px solid #e0e0e0; }
+      body .container .z .z1 button {
+        background-color: #19a1b8;
+        color: white; }
+  body .container .ss {
+    flex-wrap: nowrap;
+    width: 98%; }
+    body .container .ss .col-6 {
+      background-color: white;
+      margin-left: 10px; }
+      body .container .ss .col-6 .l {
+        padding: 5px 15px;
+        width: 90%; }
+        body .container .ss .col-6 .l .l1 {
+          font-size: 15px; }
+        body .container .ss .col-6 .l .l2 {
+          width: 100%;
+          height: 3px;
+          background-color: #e9ebea; }
+          body .container .ss .col-6 .l .l2 .l4 {
+            background-color: #0a7af1;
+            width: 85%;
+            height: 100%; }
+          body .container .ss .col-6 .l .l2 .l5 {
+            background-color: #0a7af1;
+            width: 80%;
+            height: 100%; }
+          body .container .ss .col-6 .l .l2 .l6 {
+            background-color: #0a7af1;
+            width: 90%;
+            height: 100%; }
+          body .container .ss .col-6 .l .l2 .l7 {
+            background-color: #0a7af1;
+            width: 60%;
+            height: 100%; }
+          body .container .ss .col-6 .l .l2 .l8 {
+            background-color: #0a7af1;
+            width: 70%;
+            height: 100%; }
+
+/*# sourceMappingURL=top19.css.map */

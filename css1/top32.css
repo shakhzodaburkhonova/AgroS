@@ -1,0 +1,40 @@
+.container{
+    width:70%;
+    margin:5% auto;
+}
+.s{
+    background-color: rgba(205,59,101,0.8);
+    opacity: -1;
+    padding:60px 50px;
+    height:270px;
+}
+.z{
+    margin-top:5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.ch1{
+    width:1px;
+    height: 50px;
+    background-color: white;
+}
+.ch2{
+    width:45%;
+    height: 1px;
+    background-color: white;
+}
+.ay{
+    width:5%;
+    height:15px;
+    border-radius: 50%;
+    background-color: white;
+}
+.bi{
+    font-size:30px;
+    color:white;
+}
+.s:hover{
+    opacity: 1;
+}

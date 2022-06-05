@@ -1,0 +1,41 @@
+body {
+  background: black; }
+  body .container-fluid {
+    width: 100%;
+    margin: 22% auto;
+    background: black; }
+    body .container-fluid h1 {
+      overflow: hidden;
+      position: relative;
+      z-index: 1;
+      font-size: 100px;
+      font-weight: bold;
+      letter-spacing: 2px; }
+      body .container-fluid h1 div {
+        color: red; }
+      body .container-fluid h1::before {
+        position: absolute;
+        content: "";
+        left: 110%;
+        width: 120%;
+        height: 100%;
+        background: black;
+        animation: parchalanish 5.5s linear;
+        animation-delay: 2s; }
+    body .container-fluid video {
+      position: absolute;
+      z-index: 2;
+      left: 15px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      mix-blend-mode: screen; }
+
+@keyframes parchalanish {
+  0% {
+    left: 110%; }
+  100% {
+    left: -20%; } }
+
+/*# sourceMappingURL=dars12.css.map */

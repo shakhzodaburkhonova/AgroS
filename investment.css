@@ -1,0 +1,13 @@
+.nav-link{
+    font-size: 18px;
+    font-weight: 650;
+    color: white !important;
+}
+.a1{
+    color:yellow !important;
+    text-decoration: underline;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color:yellow !important;
+}
